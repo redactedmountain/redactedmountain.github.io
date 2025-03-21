@@ -1,0 +1,128 @@
+/* Alternative Theme */
+:root {
+    --primary-color: #F8BBD0;    /* Soft pink */
+    --secondary-color: #FFDDE5;  /* Very light pink */
+    --background-color: #FFE4EC; /* Slightly more pink background */
+    --text-color: #D4849A;      /* Muted rose pink */
+    --accent-color: #9B84C4;    /* Darker soft purple */
+}
+
+/* Override main theme colors */
+body {
+    background-color: var(--background-color) !important;
+}
+
+#wrapper > .main {
+    background-color: #FFF5F8 !important; /* Very light pink instead of white */
+}
+
+#sidebar {
+    background-color: var(--primary-color) !important;
+}
+
+#header {
+    border-bottom-color: var(--accent-color) !important;
+}
+
+/* Override all button and link styles */
+.button {
+    background-color: var(--primary-color) !important;
+    color: #6d4f57 !important;  /* Darker muted pink for better contrast on buttons */
+    border-color: var(--accent-color) !important;
+    box-shadow: inset 0 0 0 2px var(--accent-color) !important;
+}
+
+.button:hover {
+    background-color: var(--secondary-color) !important;
+    border-color: #8670AB !important; /* Darker purple on hover */
+    box-shadow: inset 0 0 0 2px #8670AB !important;
+}
+
+/* Override sidebar styles */
+#sidebar nav > ul > li > a {
+    border-color: var(--accent-color) !important;
+}
+
+#sidebar nav > ul > li > a:hover {
+    color: var(--accent-color) !important;
+}
+
+#sidebar nav > ul > li > header.major {
+    border-color: var(--accent-color) !important;
+}
+
+#sidebar > .inner > .alt {
+    border-color: var(--accent-color) !important;
+}
+
+#sidebar .major h2 {
+    border-color: var(--accent-color) !important;
+}
+
+/* Override general link colors */
+a {
+    color: var(--accent-color) !important;
+}
+
+a:hover {
+    color: #8670AB !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color) !important;
+}
+
+#sidebar .inner {
+    color: #6d4f57 !important;  /* Darker muted pink for better contrast */
+}
+
+#sidebar header h2, #sidebar .major h2 {
+    color: #6d4f57 !important;  /* Darker muted pink for better contrast */
+}
+
+#menu ul a:hover {
+    background-color: var(--accent-color) !important;
+    color: white !important;
+}
+
+.features article .icon {
+    background-color: var(--primary-color) !important;
+    color: #6d4f57 !important;  /* Darker muted pink for better contrast */
+    border-color: var(--accent-color) !important;
+}
+
+.posts article {
+    border-color: var(--accent-color) !important;
+}
+
+/* Additional border overrides */
+.major {
+    border-bottom-color: var(--accent-color) !important;
+}
+
+hr {
+    border-bottom-color: var(--accent-color) !important;
+}
+
+/* Ensure consistent image sizes */
+#banner .image {
+    max-height: 400px !important;
+    overflow: hidden !important;
+}
+
+#banner .image img {
+    object-fit: cover !important;
+    max-height: 400px !important;
+    width: auto !important;
+}
+
+.posts article .image {
+    max-height: 250px !important;
+    overflow: hidden !important;
+}
+
+.posts article .image img {
+    object-fit: cover !important;
+    max-height: 250px !important;
+    width: 100% !important;
+} 

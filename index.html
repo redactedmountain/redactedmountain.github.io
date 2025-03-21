@@ -53,9 +53,9 @@
 									<div class="content">
 										<header>
 											<h1>Hi, I'm Shireen Younus</h1>
-											<p>Writer, Researcher, and Technology Professional</p>
+											<p>Law Clerk at Cooley LLP, Writer, and Technology Professional</p>
 										</header>
-										<p>Welcome to my personal website. I'm passionate about exploring the intersection of technology, society, and human experience. Through my work and research, I strive to make meaningful contributions to our understanding of how technology shapes our world.</p>
+										<p>Welcome to my personal website. Currently serving as a Law Clerk at Cooley LLP, I'm passionate about exploring the intersection of law, technology, and society. Through my work and research, I strive to make meaningful contributions to our understanding of how technology shapes our world.</p>
 										<ul class="actions">
 											<li><a href="#about" class="button big">Learn More About Me</a></li>
 										</ul>
@@ -72,6 +72,13 @@
 									</header>
 									<div class="features">
 										<article>
+											<span class="icon solid fa-scale-balanced"></span>
+											<div class="content">
+												<h3>Legal Technology</h3>
+												<p>Working at the intersection of law and technology at Cooley LLP, focusing on emerging tech and its legal implications.</p>
+											</div>
+										</article>
+										<article>
 											<span class="icon fa-gem"></span>
 											<div class="content">
 												<h3>Research & Analysis</h3>
@@ -82,14 +89,7 @@
 											<span class="icon solid fa-paper-plane"></span>
 											<div class="content">
 												<h3>Technical Writing</h3>
-												<p>Creating clear, compelling content that bridges the gap between complex technical concepts and general audiences.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-laptop"></span>
-											<div class="content">
-												<h3>Technology Strategy</h3>
-												<p>Developing strategic approaches to technology implementation that consider both technical requirements and human factors.</p>
+												<p>Creating clear, compelling content that bridges the gap between complex technical and legal concepts for general audiences.</p>
 											</div>
 										</article>
 										<article>
@@ -195,15 +195,15 @@
 									</header>
 									<p>I'm always interested in new research collaborations, speaking opportunities, and engaging discussions about technology and society.</p>
 									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="#">contact@shireenyounus.com</a></li>
-										<li class="icon solid fa-building">Harvard University<br />
-										Cambridge, MA</li>
+										<li class="icon solid fa-envelope">shireen . younus at gmail . com</li>
+										<li class="icon solid fa-building">New York, NY</li>
 									</ul>
 								</section>
 
 							<!-- Footer -->
 								<footer id="footer">
 									<p class="copyright">&copy; 2024 Shireen Younus. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+									<a href="alt.html" class="easter-egg" rel="noreferrer" title="Find a different perspective"></a>
 								</footer>
 
 						</div>
@@ -218,5 +218,33 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+			<!-- Easter Egg -->
+			<style>
+				.easter-egg {
+					position: absolute;
+					bottom: 10px;
+					left: -20px;
+					width: 60px;
+					height: 60px;
+					background: linear-gradient(45deg, #f7d794, #f5cd79);
+					border-radius: 50%;
+					cursor: pointer;
+					transition: transform 0.3s ease;
+					z-index: 1000;
+					border: none;
+					box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+				}
+				.easter-egg:hover {
+					transform: translate(5px, -5px) rotate(10deg);
+				}
+				.easter-egg::after {
+					content: "🥚";
+					font-size: 24px;
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+				}
+			</style>
 	</body>
 </html>
