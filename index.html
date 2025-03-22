@@ -29,6 +29,25 @@
 				max-height: 250px;
 				width: 100%;
 			}
+			.education-logo {
+				width: 150px;
+				height: 150px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				margin-bottom: 1em;
+				margin-right: 2em;
+			}
+			.education-logo img {
+				width: 100%;
+				height: 100%;
+				object-fit: contain;
+			}
+			.features article {
+				display: flex;
+				align-items: center;
+				margin-bottom: 2em;
+			}
 		</style>
 	</head>
 	<body class="is-preload">
@@ -53,57 +72,108 @@
 									<div class="content">
 										<header>
 											<h1>Hi, I'm Shireen Younus</h1>
-											<p>Law Clerk at Cooley LLP, Writer, and Technology Professional</p>
+											<p>Law Clerk at Cooley LLP</p>
 										</header>
-										<p>Welcome to my personal website. Currently serving as a Law Clerk at Cooley LLP, I'm passionate about exploring the intersection of law, technology, and society. Through my work and research, I strive to make meaningful contributions to our understanding of how technology shapes our world.</p>
-										<ul class="actions">
-											<li><a href="#about" class="button big">Learn More About Me</a></li>
-										</ul>
+										<p>My work focuses on constitutional and comparative law, particularly examining how constitutions impact and respond to religious and political minorities. Currently serving as a Law Clerk at Cooley LLP, I explore the dynamic relationships between legal frameworks and the diverse communities they govern.</p>
 									</div>
 									<span class="image object">
 										<img src="images/profile.jpg" alt="Shireen Younus" />
 									</span>
 								</section>
 
-							<!-- Section -->
-								<section>
+							<!-- Education -->
+								<section id="education">
 									<header class="major">
-										<h2>Areas of Expertise</h2>
+										<h2>Education</h2>
 									</header>
 									<div class="features">
 										<article>
-											<span class="icon solid fa-scale-balanced"></span>
+											<div class="education-logo">
+												<img src="images/columbia-logo.png" alt="Columbia Law School Logo">
+											</div>
 											<div class="content">
-												<h3>Legal Technology</h3>
-												<p>Working at the intersection of law and technology at Cooley LLP, focusing on emerging tech and its legal implications.</p>
+												<h3>Columbia Law School</h3>
+												<p>J.D., 2021-2024</p>
 											</div>
 										</article>
 										<article>
-											<span class="icon fa-gem"></span>
-											<div class="content">
-												<h3>Research & Analysis</h3>
-												<p>Conducting in-depth research and analysis on technology's impact on society, with a focus on ethical implications and social consequences.</p>
+											<div class="education-logo">
+												<img src="images/harvard-logo.png" alt="Harvard University Logo">
 											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-paper-plane"></span>
 											<div class="content">
-												<h3>Technical Writing</h3>
-												<p>Creating clear, compelling content that bridges the gap between complex technical and legal concepts for general audiences.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-users"></span>
-											<div class="content">
-												<h3>Community Engagement</h3>
-												<p>Building and nurturing communities around technology initiatives, fostering dialogue and collaboration.</p>
+												<h3>Harvard University</h3>
+												<p>B.A. in Government and Comparative Religion, 2016-2020</p>
 											</div>
 										</article>
 									</div>
 								</section>
 
 							<!-- Section -->
-								<section>
+								<section id="work-experience">
+									<header class="major">
+										<h2>Work Experience</h2>
+									</header>
+									<div class="features">
+										<article>
+											<div class="education-logo">
+												<img src="images/cooleyllp-logo.jpg" alt="Cooley LLP Logo">
+											</div>
+											<div class="content">
+												<h3>Cooley LLP</h3>
+												<p><strong>Law Clerk</strong><br>
+												Nov 2024 - Present<br>
+												New York, New York, United States</p>
+											</div>
+										</article>
+										<article>
+											<div class="education-logo">
+												<img src="images/cooleyllp-logo.jpg" alt="Cooley LLP Logo">
+											</div>
+											<div class="content">
+												<h3>Cooley LLP</h3>
+												<p><strong>Summer Associate</strong><br>
+												May 2023 - Jul 2023<br>
+												New York, United States</p>
+											</div>
+										</article>
+										<article>
+											<div class="education-logo">
+												<img src="images/legal-aid-logo.jpg" alt="The Legal Aid Society Logo">
+											</div>
+											<div class="content">
+												<h3>The Legal Aid Society</h3>
+												<p><strong>Immigration Defense Extern</strong><br>
+												Sep 2022 - Dec 2022<br>
+												New York, New York, United States</p>
+											</div>
+										</article>
+										<article>
+											<div class="education-logo">
+												<img src="images/lcac-logo.png" alt="Louisiana Capital Assistance Center Logo">
+											</div>
+											<div class="content">
+												<h3>Louisiana Capital Assistance Center</h3>
+												<p><strong>Legal Intern</strong><br>
+												May 2022 - Aug 2022<br>
+												New Orleans, Louisiana, United States</p>
+											</div>
+										</article>
+										<article>
+											<div class="education-logo">
+												<img src="images/american-oversight-logo.jpg" alt="American Oversight Logo">
+											</div>
+											<div class="content">
+												<h3>American Oversight</h3>
+												<p><strong>Staff Writer</strong><br>
+												Aug 2020 - Jul 2021<br>
+												Washington, DC, United States</p>
+											</div>
+										</article>
+									</div>
+								</section>
+
+							<!-- Section -->
+								<section id="featured-work">
 									<header class="major">
 										<h2>Featured Work</h2>
 									</header>
@@ -111,25 +181,9 @@
 										<article>
 											<a href="https://www.thecrimson.com/writer/1213569/Shireen__Younus/" class="image"><img src="images/harvardcrimson.jpeg" alt="Harvard Crimson Articles" /></a>
 											<h3>Harvard Crimson Writing</h3>
-											<p>Opinion columnist and staff writer for The Harvard Crimson, covering topics from campus culture to social justice, technology's impact on society, and personal reflections on the Harvard experience.</p>
+											<p>Opinion columnist for The Harvard Crimson, writing pieces on institutional critique, identity and belonging at elite institutions, social justice, and personal reflections on the Muslim-American experience.</p>
 											<ul class="actions">
 												<li><a href="https://www.thecrimson.com/writer/1213569/Shireen__Younus/" class="button">Read Articles</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/research.jpg" alt="Research Project" /></a>
-											<h3>Research Publications</h3>
-											<p>Recent academic and industry research exploring the societal implications of emerging technologies.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">View Publications</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/speaking.jpg" alt="Speaking Engagements" /></a>
-											<h3>Speaking Engagements</h3>
-											<p>Presentations and talks on technology, society, and their intersection at conferences and events.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">View Talks</a></li>
 											</ul>
 										</article>
 									</div>
@@ -142,25 +196,16 @@
 					<div id="sidebar">
 						<div class="inner">
 
-							<!-- Search -->
-								<section id="search" class="alt">
-									<form method="post" action="#">
-										<input type="text" name="query" id="query" placeholder="Search" />
-									</form>
-								</section>
-
 							<!-- Menu -->
 								<nav id="menu">
 									<header class="major">
 										<h2>Menu</h2>
 									</header>
 									<ul>
-										<li><a href="index.html">Home</a></li>
-										<li><a href="#about">About Me</a></li>
-										<li><a href="#research">Research</a></li>
-										<li><a href="#writing">Writing</a></li>
-										<li><a href="#speaking">Speaking</a></li>
-										<li><a href="#contact">Contact</a></li>
+										<li><a href="#banner">Bio</a></li>
+										<li><a href="#education">Education</a></li>
+										<li><a href="#work-experience">Work Experience</a></li>
+										<li><a href="#featured-work">Featured Work</a></li>
 									</ul>
 								</nav>
 
@@ -171,21 +216,14 @@
 									</header>
 									<div class="mini-posts">
 										<article>
-											<a href="#" class="image"><img src="images/latest-research.jpg" alt="Latest Research" /></a>
-											<p>New publication on the ethical implications of AI in social systems.</p>
+											<a href="https://www.susmangodfrey.com/2023-susman-godfrey-prize-winners/" class="image"><img src="images/susman-godfrey-logo.png" alt="Susman Godfrey Prize" /></a>
+											<p><a href="https://www.susmangodfrey.com/2023-susman-godfrey-prize-winners/">Recipient of the 2023 Susman Godfrey Prize</a></p>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/latest-talk.jpg" alt="Recent Talk" /></a>
-											<p>Keynote speech at the Technology and Society Conference 2024.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/latest-article.jpg" alt="Latest Article" /></a>
-											<p>New article on technology's role in shaping modern communities.</p>
+											<a href="https://www.law.columbia.edu/news/archive/meet-fall-2022-academic-scholars" class="image"><img src="images/columbia-logo.png" alt="Columbia Law Academic Scholar" /></a>
+											<p><a href="https://www.law.columbia.edu/news/archive/meet-fall-2022-academic-scholars">Selected as a 2022 Columbia Law Academic Scholar</a></p>
 										</article>
 									</div>
-									<ul class="actions">
-										<li><a href="#news" class="button">All Updates</a></li>
-									</ul>
 								</section>
 
 							<!-- Section -->
@@ -193,7 +231,7 @@
 									<header class="major">
 										<h2>Get in touch</h2>
 									</header>
-									<p>I'm always interested in new research collaborations, speaking opportunities, and engaging discussions about technology and society.</p>
+									<p>I welcome conversations about constitutional and comparative law, particularly regarding religious and political minorities. I'm interested in collaborating on research about how legal frameworks impact diverse communities and exploring opportunities in civil trial law.</p>
 									<ul class="contact">
 										<li class="icon solid fa-envelope">shireen . younus at gmail . com</li>
 										<li class="icon solid fa-building">New York, NY</li>
